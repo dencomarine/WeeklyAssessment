@@ -1,0 +1,9 @@
+fun main () {
+    println(evenlySpaced(2,4,6))
+    println(evenlySpaced(4,6,2))
+    println(evenlySpaced(4,6,3))
+
+}
+fun evenlySpaced(a: Int, b: Int, c: Int) : Boolean{
+     return (b-a == c-b )
+}
