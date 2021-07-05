@@ -1,0 +1,20 @@
+fun main () {
+    println(VowelRemove("This is Android Studio Class B"))
+
+
+}
+fun VowelRemove(vowelRemainder: String) : String{
+    val apha = StringBuilder()
+    for(a in vowelRemainder){
+        if(a != 'A' && a!= 'a'
+            &&a != 'E' && a!= 'e'
+            &&a != 'I' && a!= 'i'
+            &&a != 'O' && a!= 'o'
+            &&a != 'U' && a!= 'u'
+        )
+         {
+            apha.append(a)
+         }
+    }
+    return  apha.toString()
+}
